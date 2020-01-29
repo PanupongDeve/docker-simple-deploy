@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req ,res) => {
-    res.send(`Hello ${process.env.NODE_ENV} - update -2 With Docker build`);
+    res.send(`Hello ${process.env.NODE_ENV} -  With Docker build`);
 });
 
 
